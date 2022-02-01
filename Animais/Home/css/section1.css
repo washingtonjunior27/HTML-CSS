@@ -1,0 +1,87 @@
+.section-1_title h1, p{
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section-1_title h1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.section-1_title p{
+    text-align: justify;
+}
+.section-1 .imageBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.section-1 .imageBox .image{
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    width: 352px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.section-1 .imageBox .image img{
+    object-fit: cover;
+    width: 350px;
+    height: 300px;
+}
+.section-1 .imageBox .imagetexts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1 .imageBox .imagetexts p{
+    color: black;
+    text-align: justify;
+    width: 100%;
+    padding: 0 10px;
+}
+.section-1 .imageBox .imagetexts h3{
+    color: black;
+    margin: 20px 0;
+}
+.section-1 .imageBox .imagetexts a{
+    padding: 15px 20px;
+    background: var(--blue);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.section-1 .imageBox .imagetexts a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:1240px){
+    .section-1 .imageBox{
+        justify-content: space-evenly;
+    }
+}
+
+@media(max-width: 680px){
+    .section-1 .imageBox{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width: 450px){
+    .section-1_title p{
+        width: 100%;
+    }
+
+    .section-1 .imageBox{
+        flex-wrap: nowrap;
+    }
+    .section-1 .imageBox .image{
+        width: 280px;
+    }
+    .section-1 .imageBox .image img{
+        width: 278px;
+        height: 230px;
+    }
+}

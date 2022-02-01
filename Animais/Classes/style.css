@@ -1,0 +1,84 @@
+.main h1, .main-peixes h1{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.main-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 20px;
+}
+.main .main-box img{
+    width: 400px;
+    height: 350px;
+}
+
+.main-text p, .main-text h3, .main-text h4{
+    color: black;
+}
+.main-text p{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main-text h3, .main-text h4{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.main-text ul li{
+    color: black;
+    list-style: initial;
+    width: 100%;
+}
+.main-text ul li:last-child{
+    margin-bottom: 40px;
+}
+
+.main-peixes p{
+    color: black;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.main-peixes .main-box img{
+    width: 400px;
+    height: 350px;
+}
+.main-peixes h3{
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 780px){
+    .main-box{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main .main-box img, .main-peixes .main-box img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .main-text ul li{
+        width: 100%;
+    }
+    .main-text p{
+        width: 100%;
+    }
+}
+
+@media(max-width: 420px){
+    .main-peixes .main-box img, .main .main-box img{
+        width: 280px;
+        height: 230px;
+    }
+    .main-text p{
+        margin-bottom: 10px;
+    }
+    .main-peixes p{
+        margin-bottom: 10px;
+    }
+}

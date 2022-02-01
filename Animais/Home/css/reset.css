@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,li,span, i{
+    color: lightyellow;
+}
+
+
+.container{
+    padding: 20px 70px;
+}
+
+:root{
+    --blue: linear-gradient(0deg,#073453,#2c6083);
+}
