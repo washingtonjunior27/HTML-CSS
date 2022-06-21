@@ -1,192 +1,202 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hotel</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Hotel Layout</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-            <img src="img/logo.png" alt="Logo">
-            <div class="menu1">
-                <a>Citadela</a>
-                <p>Hotel Layout Pack</p>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+                <div class="logo-text">
+                    <h1><strong>Citadela</strong></h1>
+                    <span>Hotel Layout Pack</span>
+                </div>
             </div>
-        </nav>
-        <nav class="menuitens">
-            <ul>
-                <li><a href="#" id="first">Homepage</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">Spa & Wellness</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Attractions</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Download Layout</a></li>
-            </ul>
-        </nav>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#" id="first">Homepage</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Spa & Wellness</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Attractions</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Download Layout</a></li>
+                </ul>
+            </nav>
+            <div id="hamburguer">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </header>
 
-    <section class="section1">
-        <div class="area1">
-            <H1>Citadela Hotel & Spa Resort.</H1>
-            <p><b>Your <span>5 star</span> hotel</b></p>
-            <button class="botao"><b>Contact Us !</b></button>
+    <main class="main">
+        <div class="container">
+            <div class="main-text">
+                <h1><strong>Citadela Hotel & Spa Resort.</strong></h1>
+                <p>Your <a href="#">5 star</a> Hotel</p>
+                <button class="btn">Contact Us !</button>
+            </div>
+        </div>
+    </main>
+
+    <section class="section">
+        <div class="section-container">
+            <div class="section-text">
+                <h1>Treat yourself to a combination of relaxing massages and beauty treatments</h1>
+                <h3>Etiam tincidunt quis odio vitae tempus</h3>
+                <p>Fusce elit nisi, luctus ut metus nec, fringilla tincidunt sem. Cras elementum eget arcu id viverra.
+                    Duis in quam posuere, tempor urna quis, feugiat est. Interdum et malesuada fames ac ante ipsum
+                    primis in faucibus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam.</p>
+            </div>
+            <img src="img/img1.jpg" alt="Img-1">
         </div>
     </section>
 
-    <section class="section2">
-        <div class="area2">
-            <div class="texts">
-                <h2><b>Treat yourself to a combination of relaxing massages and beauty treatments</b></h2>
-                <p id="pink">Etiam tincidunt quis odio vitae tempus</p>
-                <hr>
-                <p>
-                    Fusce elit nisi, luctus ut metus nec, fringilla tincidunt sem. Cras elementum eget arcu id
-                    viverra. Duis in quam posuere, tempor urna quis, feugiat est. Interdum et malesuada 
-                    fames ac ante ipsum primis in faucibus. Sed ut perspiciatis unde omnis iste natus error 
-                    sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            </div>
-        </div>
-        <div class="image">
-            <img src="img/img1.jpg" alt="Imagem1">
-        </div>
-    </section>
-
-    <section class="section3" style="background: #f6f1f1; opacity: 0.95;">
-        <div class="area3">
-            <div class="menuitens">
-                <i class="fas fa-swimming-pool" style="color:#ce4374"></i>
-                <h3>Indoor Pool</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
-                    accusantium doloremque laudantium, totam onsequuntur rem 
-                    aperiam, eaque ipsa quae ab illo.</p>
-            </div>
-
-            <div class="menuitens">
-                <i class="fas fa-users" style="color:#ce4374"></i>
-                <h3>Family Rooms</h3>
-                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut 
-                    fugit, sed quia consequuntur magni dolores eos qui 
-                    ratione voluptatem sequi nesciunt .</p>
-            </div>
-
-            <div class="menuitens">
-                <i class="fas fa-parking" style="color:#ce4374"></i>
-                <h3>Free Parking</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-                    eiusmod tempor incididunt ut labore et dolore magna 
-                    aspernatur aut odit aut fugit .</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="section4">
-        <div class="texts2">
-            <h1>Comfortable rooms for Everyone</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore<br>
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-        </div>
-
-        <div class="flex">
-            <div class="image image2">
-                <img src="img/img2.jpg" alt="Imagem2">
-                <div class="par">
-                    <h2>Apartment for Family</h2>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Ut enim ad 
-                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-                        <button class="botao">View Room</button>
+    <section class="section-2">
+        <div class="section2-container">
+            <div class="inputBox">
+                <div class="inputItem">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h1>Indoor Pool</h1>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam onsequuntur rem aperiam, eaque ipsa quae ab illo.</p>
                 </div>
-            </div>
-            <div class="image image2">
-                <img src="img/img3.jpg" alt="Imagem3">
-                <div class="par">
-                    <h2>Apartment for Couple</h2>
-                    <hr>
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut. Ut enim ad minim
-                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-                    <button class="botao">View Room</button>
+                <div class="inputItem">
+                    <i class="fas fa-users"></i>
+                    <h1>Family Rooms</h1>
+                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur
+                        magni dolores eos qui ratione voluptatem sequi nesciunt .</p>
+                </div>
+                <div class="inputItem">
+                    <i class="fas fa-parking"></i>
+                    <h1>Free Parking</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aspernatur aut odit aut fugit .</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section5">
-        <div class="texts2">
-            <div class="texts2">
-                <h1>Amenities around the Hotel</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore<br>magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea.
-                </p>
-            </div>
+    <section class="section-3">
+        <div class="section-starter-items">
+            <h1>Comfortable Rooms for Everyone</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+            </p>
         </div>
-        <div class="flex">
-            <div class="menuitens2">
-                <i class="fas fa-map-marker-alt" style="color: #e74f91; border-color: #e74f91;"></i>
-                <h3>Amenities</h3>
-                <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in, finibus dictum sapien.</p>
+        <div class="section3-container">
+            <div class="section3-items">
+                <img src="img/img2.jpg" alt="Img-2">
+                <h1>Apartment for Family</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                <button class="btn">View Room</button>
             </div>
-            <div class="menuitens2">
-                <i class="fas fa-glass-martini" style="color: #b100ba; border-color: #b100ba;"></i>
-                <h3>Bar</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-            <div class="menuitens2">
-                <i class="fas fa-kaaba" style="color: #ba5f00; border-color: #ba5f00;"></i>
-                <h3>Business</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="menuitens2">
-                <i class="fas fa-water" style="color: #00b2ba; border-color: #00b2ba;"></i>
-                <h3>By the Sea</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
-        </div>
-
-        <div class="flex">
-            <div class="menuitens2">
-                <i class="fas fa-landmark" style="color: #ba8b00; border-color: #ba8b00;"></i>
-                <h3>Culture</h3>
-                <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in, finibus dictum sapien.</p>
-            </div>
-            <div class="menuitens2">
-                <i class="fas fa-tree" style="color: #226a13; border-color: #226a13;"></i>
-                <h3>Nature</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="menuitens2">
-                <i class="fas fa-street-view" style="color: #0070ba; border-color: #0070ba;"></i>
-                <h3>Place to Visit</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div class="menuitens2">
-                <i class="fas fa-utensils" style="color: #ba3d00; border-color: #ba3d00;"></i>
-                <h3>Restaurant</h3>
-                <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in, finibus dictum sapien.</p>
+            <div class="section3-items">
+                <img src="img/img2.jpg" alt="Img-2">
+                <h1>Apartment for Couple</h1>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                <button class="btn">View Room</button>
             </div>
         </div>
     </section>
 
+    <section class="section-4">
+        <div class="section-starter-items">
+            <h1>Amenities around the Hotel</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+            </p>
+        </div>
+        <div class="section4-container">
+            <div class="section4-items">
+                <div class="item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h4>Amenities</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-glass-martini"></i>
+                    <h4>Bar</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-kaaba"></i>
+                    <h4>Business</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-water"></i>
+                    <h4>By the sea</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+            </div>
+
+            <div class="section4-items">
+                <div class="item">
+                    <i class="fas fa-landmark"></i>
+                    <h4>Culture</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-tree"></i>
+                    <h4>Nature</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-street-view"></i>
+                    <h4>Place to Visit</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-utensils"></i>
+                    <h4>Restaurant</h4>
+                    <p>Phasellus viverra mi ipsum, nec egestas metus auctor id. Nulla lectus augue, placerat non sem in,
+                        finibus dictum sapien.</p>
+                </div>
+            </div>            
+        </div>
+    </section>
+    
     <footer class="footer">
-        <div class="menu2">
-            <ul>
-                <li><a href="#">Homepage</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">Spa & Wellness</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Attractions</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div class="rodape">
-            <p>CREATED WITH CITADELA WORDPRESS THEME BY AITTHEMES</p>
+        <div class="footer-container">
+            <nav class="menu-footer">
+                <ul>
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Spa & Wellness</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Attractions</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="footer-copy">
+                <p>&copy; Washington Júnior/ Manaus-AM</p>
+            </div>
         </div>
     </footer>
-
-    <script src="https://kit.fontawesome.com/407f74df21.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
