@@ -2,4 +2,4 @@
 
 Site completo sobre o Reino Animal em HTML, CSS e um pouco de JavaScript.
 
-![Screenshot](Print.png)
+![Screenshot](Home.png)
