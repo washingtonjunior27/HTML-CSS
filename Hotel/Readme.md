@@ -2,7 +2,7 @@
 
 HomePage de um hotel feita em Html + CSS
 
-# ![Screenshot](Img1.png)
-# ![Screenshot](Img2.png)
-# ![Screenshot](Img3.png)
-![Screenshot](Img4.png)
+# ![Screenshot](readme-imgs/img1.png)
+# ![Screenshot](readme-imgs/img2.png)
+# ![Screenshot](readme-imgs/img3.png)
+![Screenshot](readme-imgs/img4.png)
